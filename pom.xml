@@ -9,7 +9,7 @@
 		<version>2.1.3.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.github.jaisonpereira</groupId>
+	<groupId>com.wirelabs</groupId>
 	<artifactId>utils-web-labswire</artifactId>
 	<version>latest</version>
 	<name>utils-web-labswire</name>
@@ -52,6 +52,16 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<layout>MODULE</layout>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 		<finalName>${finalName}</finalName>
