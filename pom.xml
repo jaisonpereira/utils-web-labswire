@@ -9,7 +9,7 @@
 		<version>2.1.3.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.wirelabs</groupId>
+	<groupId>com.github.jaisonpereira</groupId>
 	<artifactId>utils-web-labswire</artifactId>
 	<version>1.0.0.0</version>
 	<name>utils-web-labswire</name>
