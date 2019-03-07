@@ -11,15 +11,13 @@
 	</parent>
 	<groupId>com.github.jaisonpereira</groupId>
 	<artifactId>utils-web-labswire</artifactId>
-	<version>latest</version>
+	<version>1.0.0.2</version>
 	<name>utils-web-labswire</name>
 	<description>Utils commons for wire labs project</description>
-
 	<properties>
 		<java.version>1.8</java.version>
 		<finalName>${project.artifactId}-${project.version}</finalName>
 	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -46,7 +44,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
