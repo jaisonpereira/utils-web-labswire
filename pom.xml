@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.github.jaisonpereira</groupId>
 	<artifactId>utils-web-labswire</artifactId>
-	<version>1.0.0.2</version>
+	<version>1.0.0.3</version>
 	<name>utils-web-labswire</name>
 	<description>Utils commons for wire labs project</description>
 	<properties>
@@ -42,6 +42,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 	</dependencies>
 	<build>
