@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.github.jaisonpereira</groupId>
 	<artifactId>utils-web-labswire</artifactId>
-	<version>1.0.0.3</version>
+	<version>1.0.0.4</version>
 	<name>utils-web-labswire</name>
 	<description>Utils commons for wire labs project</description>
 	<properties>
