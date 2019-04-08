@@ -47,6 +47,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.github.jaisonpereira</groupId>
+			<artifactId>utils-common-labswire</artifactId>
+			<version>1.0.0.1</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
